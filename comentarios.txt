@@ -1,0 +1,16 @@
+Que es un Paradigma: 
+    Teoria que suministra la base y modelo para resolver problemas
+
+se compone de 4 elementos
+
+Clases
+Propiedades
+Metodo
+Objeto
+
+tiene 4 pilared
+
+Encapsulamiento 
+Abstraccion
+Herencia
+Polimorfismo
