@@ -14,3 +14,71 @@ Encapsulamiento
 Abstraccion
 Herencia
 Polimorfismo
+
+UML -> lo mas importante son diagramas de clases
+
+***************************************************************************************************************
+
+Los Objetos son:
+    son todas esas cosas que pueden ser fisicos o conceptuales. tienen propiedades y comportamientos. 
+
+    Ej. -> Sesión de inicio, usuario 
+
+    propiedades = Atributos -> siempre son sustantivos 
+        Ej. Nombre, Tamaño, Forma, Estado
+    
+    Metodos = -> es el comportamiento o las operaciones que puede realizar el objeto suelen ser verbos
+        ej. Login(), Logout(), MakeReport()
+
+En resumen un objeto tiene atributos y metodos. 
+
+los objetos son instancias de las clases
+
+
+***************************************************************************************************************
+
+Que es una Clase: 
+    son los modelos sobre el cual se construyen nuestros objetos.
+
+    Abstracción -> es analizar un objeto para generar un molde 
+
+
+***************************************************************************************************************
+
+Modularidad:
+    habilidad de dividir el programa en varios modulos mas pequeños 
+
+lo normal sera que el programa se divida en modulos siendo un modulo un archivo y a la vez una clase. eso significa que si tenemos un programa que ocupe 3 clases tendriamos al final 4 archivos o modulos:
+
+    1. Main/Index
+    2. Clase 1
+    3. clase 2
+    4. Clase 3 
+
+las excepciones serian las clases anidadas que viven en el archivo de otra clase 
+
+***************************************************************************************************************
+
+Programa 1: 
+
+    te permite agendar citas medicas con un Dr y ver tambien las citas que ya tienes agendadas
+
+
+
+***************************************************************************************************************
+
+Metodos: 
+
+    static -> se puede usar en toda la clase 
+        pueden ser accesados indicando el nombre de la clase 
+        se invoca en una clase que no tiene instancias de la clase
+
+***************************************************************************************************************
+
+Modificadores de acceso: 
+
+public:     class   package subclase    otros
+protected:  class   package subclase
+default:    class   package
+private:    class
+
