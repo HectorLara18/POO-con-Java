@@ -1,32 +1,17 @@
 import java.util.ArrayList;
 import java.util.Date;
 
-public class Doctor {
+public class Doctor extends User {
     //Atributos
-    static int id = 0;
-    private String name;
-    private String email;
     private String speciality;
 
-    Doctor(){
-        System.out.println("Construyendo el metodo Doctor");
-    }
-
-    Doctor(String name, String speciality){
-        id++;
-        this.name = name;
+    Doctor(String name, String email, String speciality){
+        super(name, email);
         this.speciality = speciality;
+
     }
 
     //Comportamiento
-    public void showName(){
-        System.out.println(name);
-    }
-
-    public void showId(){
-        System.out.println("ID Doctor: " + id);
-    }
-
     //Metodo creado a nivel de clase Doctor que recibe como parametro
     ArrayList<AvailableAppointment> availableAppointment = new ArrayList<>();
     public void addAvaialbleAppointment(Date date, String time){
@@ -47,6 +32,7 @@ public class Doctor {
             this.date = date;
             this.time = time;
         }
+
 
         public int getId() {
             return id;

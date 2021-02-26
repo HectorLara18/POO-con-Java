@@ -82,3 +82,16 @@ protected:  class   package subclase
 default:    class   package
 private:    class
 
+***************************************************************************************************************
+
+Clases anidadas se pueden utilizar dependiendo del metodo del negocio 
+para poder accederlos necesitan estar declarados como estaticas
+
+
+las clases intenras no son estaticas 
+
+en resumen tenemos;
+
+1. Clases anidadas 
+2. Clases intenras
+3. Clases Locales
